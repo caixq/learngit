@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <title> </title>
+    <meta name="Keywwords" content="">
+    
+    <link rel="stylesheet" type="text/css" href="http://j2.58cdn.com.cn/zt/58jiaxiao/css/moni_timu.css">
+    <script type="text/javascript" src="http://j2.58cdn.com.cn/js/jquery-1.8.3.js"></script>
+</head>
+
+<body>
+    <div class="left">
+        <div class="item" bestanswer="2" ttype="2" index="6">
+            <h3>驾驶机动车在这个路口怎样左转弯行驶？</h3>
+                        <div class="questionPic">
+                <img src="http://ww1.sinaimg.cn/mw240/5eb4d75agw1e293vk14cnj.jpg">                <div class="lookAt" id="look6">
+                    <div class="questionErea" onclick="showBigImgORswf($(this).attr('rel'));" rel="http://ww2.sinaimg.cn/mw600/5eb4d75agw1e293vk14cnj.jpg">
+                      <div class="magnify"></div>查看大图
+                    </div>
+                </div>
+            </div>
+                                    <ul>
+                                                <li>
+                    <input type="radio" name="index6" answer="A" id="index6_1" onclick="tjAnawer(this);">
+                    <label for="index6_1">沿直行车道左转</label>
+                </li>
+                                                <li>
+                    <input type="radio" name="index6" answer="B" id="index6_2" onclick="tjAnawer(this);">
+                    <label for="index6_2">进入左转弯待转区</label>
+                </li>
+                                                <li>
+                    <input type="radio" name="index6" answer="C" id="index6_3" onclick="tjAnawer(this);">
+                    <label for="index6_3">进入直行等待区</label>
+                </li>
+                                                <li>
+                    <input type="radio" name="index6" answer="D" id="index6_4" onclick="tjAnawer(this);">
+                    <label for="index6_4">沿左车道左转弯</label>
+                </li>
+                                            </ul>
+                        <div class="result">
+                <p>您的答案：&nbsp;<i id="yourAns6"></i></p>
+                <p id="TorF6" class="biaoshi false"></p>
+                <strong>标准答案：<i id="trueAns6">B</i></strong>
+                <b onclick="$(this).parent('.result').next().toggle();">本题解释</b>
+            </div>
+            <div class="expln">
+                <h5>最佳分析</h5>
+                <p id="explain6">路口施划了左转弯待转区，因此左转弯时应当先进入左转弯待转区后再左转，而且此时是直行车道的绿灯信号。因此应当在左转弯待转区等待。</p>
+            </div>
+        </div>
+        
+        <div class="pagerout">
+            <div class="pager">
+                 <a class="prv"><span>上一页</span></a>
+                 <a href="moni_fr.html" ><span>1</span></a>
+                 <a href="moni_fr2.html" id="aaa"><span>2</span></a>
+                 <a href="moni_fr3.html" id="aaa"><span>3</span></a>
+                 <a href="moni_fr4.html" id="aaa"><span>4</span></a>
+                 <a class="next" href=""><span>下一页</span></a>
+            </div>
+        </div> 
+    </div>
+
+    <script type="text/javascript" src="http://j2.58cdn.com.cn/zt/58jiaxiao/js/moni_fr.js"></script>
+</body>
+
+</html>

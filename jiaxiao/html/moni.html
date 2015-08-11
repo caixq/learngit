@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <title> </title>
+    <meta name="Keywwords" content="">
+    <link rel="stylesheet" type="text/css" href="http://j2.58cdn.com.cn/zt/58jiaxiao/css/home.css">
+    <link rel="stylesheet" type="text/css" href="http://j2.58cdn.com.cn/zt/58jiaxiao/css/moni.css">
+    <script type="text/javascript" src="http://j2.58cdn.com.cn/js/jquery-1.8.3.js"></script>
+    
+</head>
+
+<body>
+    <input type="hidden" id="jiakao-data-kemu" value="1">
+    <div id="topbar">
+        <div class="w ">
+            <a href="">网站地图</a>
+            <span class="gap">|</span>
+            <a href="">我的错题</a>
+        </div>
+    </div>
+    <div class="homewrap">
+        <div class="header">
+            <div id="headerInside">
+                <a href="http://bj.58.com" target="_self" id="logo" onclick="clickLog('from=sylogo_bj');"><img src="http://j2.58cdn.com.cn/zt/58jiaxiao/img/58logo.gif" alt="中文最大生活信息门户" title="58同城，让生活更简单" class="logo"></a>
+                <div class="breadNav"><a href="">首页</a> > <a href="">小车类</a> > <span class="nowlink">科目一</span>  </div>
+                <div id="searchbar">
+                    <div class="searchkey">
+                        <input type="text" id="keyword" name="key" class="keyword" value="科目一试题练习" onclick = "if (this.value=='科目一试题练习') this.value='';" onblur = "if (this.value =='') this.value='科目一试题练习';">
+                    </div>
+                    <div class="inputcon"><input type="submit" name="button" id="searchbtn" class="btnall" value="搜索" onclick="window.location.href='/jiakao/search/?key='+ escape($('#keyword').val())"></div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="biaoti"><p class="icon"></p><h3>小车（C1/C2）科目一题库</h3></div>
+            <div class="main_moban">
+                <iframe src="moni_fr.html" frameborder="no" border="0" marginwidth="0" scrolling="no" id="mainfrm" onload="autoSize()"></iframe>
+                
+            </div>
+            
+            <div class="right">
+                <p class="leftTime">剩余时间：<span id="leftTime"></span></p>
+                
+                <table>
+                    <tr>
+                        <td id="examIndex1">1</td> 
+                        <td id="examIndex2">2</td> 
+                        <td id="examIndex3">3</td> 
+                        <td id="examIndex4">4</td> 
+                        <td id="examIndex5">5</td>
+                        <td id="examIndex6">6</td> 
+                        <td id="examIndex7">7</td> 
+                        <td id="examIndex8">8</td> 
+                        <td id="examIndex9">9</td> 
+                        <td id="examIndex10">10</td>
+                    </tr>
+                    <tr>
+                        <td id="examIndex11">11</td> 
+                        <td id="examIndex12">12</td> 
+                        <td id="examIndex13">13</td> 
+                        <td id="examIndex14">14</td> 
+                        <td id="examIndex15">15</td>
+                        <td id="examIndex16">16</td> 
+                        <td id="examIndex17">17</td> 
+                        <td id="examIndex18">18</td> 
+                        <td id="examIndex19">19</td> 
+                        <td id="examIndex20">20</td>
+                    </tr>
+                    <tr>
+                        <td id="examIndex21">21</td> 
+                        <td id="examIndex22">22</td> 
+                        <td id="examIndex23">23</td> 
+                        <td id="examIndex24">24</td> 
+                        <td id="examIndex25">25</td>
+                        <td id="examIndex26">26</td> 
+                        <td id="examIndex27">27</td> 
+                        <td id="examIndex28">28</td> 
+                        <td id="examIndex29">29</td> 
+                        <td id="examIndex30">30</td>
+                    </tr>
+                    <tr>
+                        <td id="examIndex31">31</td> 
+                        <td id="examIndex32">32</td> 
+                        <td id="examIndex33">33</td> 
+                        <td id="examIndex34">34</td> 
+                        <td id="examIndex35">35</td>
+                        <td id="examIndex36">36</td> 
+                        <td id="examIndex37">37</td> 
+                        <td id="examIndex38">38</td> 
+                        <td id="examIndex39">39</td> 
+                        <td id="examIndex40">40</td>
+                    </tr>
+                    <tr>
+                        <td id="examIndex41">41</td> 
+                        <td id="examIndex42">42</td> 
+                        <td id="examIndex43">43</td> 
+                        <td id="examIndex44">44</td> 
+                        <td id="examIndex45">45</td>
+                        <td id="examIndex46">46</td> 
+                        <td id="examIndex47">47</td> 
+                        <td id="examIndex48">48</td> 
+                        <td id="examIndex49">49</td> 
+                        <td id="examIndex50">50</td>
+                    </tr>
+                    <tr>
+                        <td id="examIndex51">51</td> 
+                        <td id="examIndex52">52</td> 
+                        <td id="examIndex53">53</td> 
+                        <td id="examIndex54">54</td> 
+                        <td id="examIndex55">55</td>
+                        <td id="examIndex56">56</td> 
+                        <td id="examIndex57">57</td> 
+                        <td id="examIndex58">58</td> 
+                        <td id="examIndex59">59</td> 
+                        <td id="examIndex60">60</td>
+                    </tr>
+                    <tr>
+                        <td id="examIndex61">61</td> 
+                        <td id="examIndex62">62</td> 
+                        <td id="examIndex63">63</td> 
+                        <td id="examIndex64">64</td> 
+                        <td id="examIndex65">65</td>
+                        <td id="examIndex66">66</td> 
+                        <td id="examIndex67">67</td> 
+                        <td id="examIndex68">68</td> 
+                        <td id="examIndex69">69</td> 
+                        <td id="examIndex70">70</td>
+                    </tr>
+                    <tr>
+                        <td id="examIndex71">81</td> 
+                        <td id="examIndex72">82</td> 
+                        <td id="examIndex73">83</td> 
+                        <td id="examIndex74">84</td> 
+                        <td id="examIndex75">85</td>
+                        <td id="examIndex76">86</td> 
+                        <td id="examIndex77">87</td> 
+                        <td id="examIndex78">88</td> 
+                        <td id="examIndex79">89</td> 
+                        <td id="examIndex80">90</td>
+                    </tr>
+                    <tr>
+                        <td id="examIndex91">91</td> 
+                        <td id="examIndex92">92</td> 
+                        <td id="examIndex93">93</td> 
+                        <td id="examIndex94">94</td> 
+                        <td id="examIndex95">95</td>
+                        <td id="examIndex96">96</td> 
+                        <td id="examIndex97">97</td> 
+                        <td id="examIndex98">98</td> 
+                        <td id="examIndex99">99</td> 
+                        <td id="examIndex100">100</td>
+                    </tr>
+                </table>
+                <div class="symbol">
+                    <div class="didnot"></div><p>未答题</p>
+                    <div class="ing"></div><p>当前题</p>
+                    <div class="already"></div><p>已答题</p>
+                    <div class="wrong"></div><div id="line"></div><p>答错题</p>
+                </div>
+                <div class="btn">
+                    <div class="subtest" id="subtest">提交试卷</div>
+                    <div class="reset" id="reset">重新出卷</div>
+                    <div class="history" id="history">历史成绩</div>
+                </div>
+                <div class="finally">
+                    <h3>考试成绩</h3>
+                    <div >
+                        <p class="score"><span>得分：</span><i></i></p>
+                        <p class="_time"><span>用时：</span><i></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="otherlinks">
+                <div class="kemu">
+                    <p class="padding">更改驾照类型：</p>
+                    <ul>
+                        <li><a href="">小车科目一</a></li>
+                        <li><a href="">货车科目一</a></li>
+                        <li><a href="">客车科目一</a></li>
+                        <li><a href="">摩托车科目一</a></li>
+                        <li><a href="">小车科目四</a></li>
+                        <li><a href="">货车科目四</a></li>
+                        <li><a href="">客车科目四</a></li>
+                        <li><a href="">摩托车科目四</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<footer id="footer" class="footer"><p class="copyright">© 58.com <a id="askicon" target="_blank" title="有问题请与58客服进行对话" rel="nofollow" href="http://about.58.com/v5/">帮助中心</a></p></footer>
+<script type="text/javascript" src="http://j2.58cdn.com.cn/zt/58jiaxiao/js/moni.js"></script>
+
+</body>
+
+</html>

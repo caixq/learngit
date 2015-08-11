@@ -1,0 +1,121 @@
+.fenlei{
+	width: 1000px;
+	margin: 30px auto 0 auto;
+
+}
+.wrap{
+	margin: 17px 33px 17px 43px;
+	overflow: hidden;
+	zoom:1;
+	border-bottom: 1px solid #dddddd;
+}
+.leixing{
+	width: 132px;
+	height: 75px;
+	margin-right: 9px;
+	float: left;
+}
+.course {
+	margin-right: 23px;
+	width: 99px;
+	overflow: hidden;
+	zoom:1;
+	float: left;
+}
+.course li{
+	width: 99px;
+	height: 30px;
+	cursor: pointer;
+	margin-bottom: 13px;
+	float: left;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+}
+.excise{
+	float: left;
+	width: 660px;
+	margin-right: -9px;
+}
+.excise li{
+	width: 99px;
+	height: 30px;
+	margin-bottom: 13px;
+	margin-right: 9px;
+	float: left;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.xiaoche{
+	border:1px solid #d55e12;
+	background-color: #f4680e;
+	
+}
+.xiaoche2 li{
+	background: #f88013;
+	border: 1px solid #e68125;
+}
+.xiaoche3 li{
+	background: #fa9e1a;
+	border: 1px solid #e68125;
+}
+.huoche{
+	border:1px solid #0082ca;
+	background-color: #0064ca;
+}
+.huoche2 li{
+	background: #009cd9;
+	border: 1px solid #009cd9;
+}
+.huoche3 li{
+	background: #00afe2;
+	border: 1px solid #1dabd4;
+}
+.keche{
+	border:1px solid #8d2791;
+	background-color: #791a7d;
+}
+.keche2 li{
+	background: #b13ab5;
+	border: 1px solid #a73bab;
+}
+.keche3 li{
+	background: #c360c6;
+	border: 1px solid #b15ab4;
+}
+.motuo{
+	border:1px solid #03a990;
+	background-color: #069580;
+}
+.motuo2 li{
+	background: #04bca6;
+	border: 1px solid #1c9b91;
+}
+.motuo3 li{
+	background-color: #07cdbc;
+	border: 1px solid #1f9e95;
+}
+.xiaoche p,.huoche p,.keche p,.motuo p{
+	background-image: url(../img/map.png);
+	background-size: auto 161px;
+	width: 54px;
+	height: 39px;
+	margin: 19px auto 19px auto;
+}
+.xiaoche p{
+	background-position: 0 0;
+}
+.huoche p{
+	background-position: 0 -38px;
+}
+.keche p{
+	background-position: 0 -79px;
+}
+.motuo p{
+	background-position: 0 -118px;
+}

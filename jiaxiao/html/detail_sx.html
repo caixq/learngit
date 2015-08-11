@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <title> </title>
+    <meta name="Keywwords" content="">
+    <link rel="stylesheet" type="text/css" href="http://j2.58cdn.com.cn/zt/58jiaxiao/css/home.css">
+    <link rel="stylesheet" type="text/css" href="http://j2.58cdn.com.cn/zt/58jiaxiao/css/detail.css">
+    <script type="text/javascript" src="http://j2.58cdn.com.cn/js/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="http://j2.58cdn.com.cn/zt/58jiaxiao/js/json2.js"></script>
+    
+</head>
+
+<body>
+    <input type="hidden" id="jiakao-data-kemu" value="1">
+    <input type="hidden" id="jiakao-data-gs" value="xc">
+    <input type="hidden" id="jiakao-data-clevel1" value="1">
+    <input type="hidden" id="jiakao-data-qcount" value="556"> 
+    <input type="hidden" id="jiakao-data-cketype" value="sxlxindex"> 
+    <input type="hidden" id="jiakao-data-cketype1" value="sxlxindex1"> 
+    <input type="hidden" id="jiakao-data-rand" value="true">
+    <div id="topbar">
+        <div class="w ">
+            <a href="">网站地图</a>
+            <span class="gap">|</span>
+            <a href="">我的错题</a>
+        </div>
+    </div>
+    <div class="homewrap">
+        <div class="header">
+            <div id="headerInside">
+                <a href="http://bj.58.com" target="_self" id="logo" onclick="clickLog('from=sylogo_bj');"><img src="http://j2.58cdn.com.cn/zt/58jiaxiao/img/58logo.gif" alt="中文最大生活信息门户" title="58同城，让生活更简单" class="logo"></a>
+                <div class="breadNav"><a href="">首页</a> > <a href="">小车类</a> > <span class="nowlink">科目一</span>  </div>
+                <div id="searchbar">
+                    <div class="searchkey">
+                        <input type="text" id="keyword" name="key" class="keyword" value="科目一试题练习" >
+                    </div>
+                    <div class="inputcon"><input type="submit" name="button" id="searchbtn" class="btnall" value="搜索" onmousemove="this.className='btnal2'" onmouseout="this.className='btnall'"></div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="biaoti"><p class="icon"></p><h3>小车（C1/C2）科目一题库</h3></div>
+            <div class="main">
+                <div class="timuContainer">
+                    <div class="question">
+                        <span id="timu">15、发动机起动后仪表板上（如图所示）亮表示什么？
+                        </span>
+                    </div>
+                    <div class="item">
+                        <div class="right" id="questionPic"><img src="http://ww2.sinaimg.cn/mw240/5eb4d75agw1e4fte6h7hrj20hb06y0ux.jpg"><div class="lookAt" id="look"><p class="magnify"></p>查看大图</div></div>
+                        <div class="left">
+                            <ul id="ul_answers"><input type="hidden" id="trueId" value="1622"><input type="hidden" id="trueChapter" value="2"><li><input type="checkbox" name="answer" id="answer1" value="A"><label for="answer1">A:加速缩短会车时间</label></li><li><input type="checkbox" name="answer" id="answer2" value="B"><label for="answer2">B:减速靠右行驶</label></li><li><input type="checkbox" name="answer" id="answer3" value="C"><label for="answer3">C:保持安全间距</label></li><li><input type="checkbox" name="answer" id="answer4" value="D"><label for="answer4">D:注意避让非机动车</label></li><li><a id="multiSbmt" onclick="tjanswer2('BCD','49')">提交</a></li></ul>
+                            <span id="rightanswer"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="control">
+                    <div class="state">
+                        <p class="accuracy">
+                            <span>答对：</span><i id="TrueNum">&nbsp;&nbsp;0</i><span>题</span>&nbsp;&nbsp;
+                            <span>答错：</span><i id="FalseNum">0</i><span>题</span>&nbsp;&nbsp;
+                            <span>正确率：</span><i id="accuracy">100%</i>
+                        </p>
+                        <p class="right_next">
+                            <input type="checkbox" checked="checked" class="AutoNextTmp">答对自动 跳转下一题
+                        </p>
+                        <p>
+                            <span>共</span><i class="quallcount">1024</i><span>题</span>&nbsp;&nbsp;
+                            <span>当前</span><i class="nowCount">23</i><span>题</span>&nbsp;&nbsp;
+                            <span>转到</span>
+                            <input type="text" id="tiao">&nbsp;&nbsp;<span>题</span>&nbsp;&nbsp;
+                            <p id="skip" >GO>></p>
+                        </p>
+                    </div>
+                    <div class="turn">
+                        <div class="updn">
+                            <p onclick="go(-1)">上一题</p>
+                            <p onclick="go(0)">下一题</p>
+                        </div>
+                        <div class="explain">
+                            <p>本题详解</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+             <div class="otherlinks">
+                <div class="kemu">
+                    <p class="padding">更改驾照类型：</p>
+                    <ul>
+                        <li><a href="">小车科目一</a></li>
+                        <li><a href="">货车科目一</a></li>
+                        <li><a href="">客车科目一</a></li>
+                        <li><a href="">摩托车科目一</a></li>
+                        <li><a href="">小车科目四</a></li>
+                        <li><a href="">货车科目四</a></li>
+                        <li><a href="">客车科目四</a></li>
+                        <li><a href="">摩托车科目四</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer id="footer" class="footer"><p class="copyright">© 58.com <a id="askicon" target="_blank" title="有问题请与58客服进行对话" rel="nofollow" href="http://about.58.com/v5/">帮助中心</a></p></footer>
+
+<script type="text/javascript">
+
+</script>
+<script type="text/javascript" src="http://j2.58cdn.com.cn/zt/58jiaxiao/js/allCommon.js"></script> 
+<script type="text/javascript" src="http://j2.58cdn.com.cn/zt/58jiaxiao/js/showBigPic.js"></script>
+<script type="text/javascript" src="http://j2.58cdn.com.cn/zt/58jiaxiao/js/chapter1.js"></script>
+</body>
+</html>

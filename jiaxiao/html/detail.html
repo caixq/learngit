@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <title> </title>
+    <meta name="Keywwords" content="">
+    <link rel="stylesheet" type="text/css" href="http://j2.58cdn.com.cn/zt/58jiaxiao/css/home.css">
+    <link rel="stylesheet" type="text/css" href="http://j2.58cdn.com.cn/zt/58jiaxiao/css/detail.css">
+    <script type="text/javascript" src="http://j2.58cdn.com.cn/js/jquery-1.8.3.js"></script>
+    
+</head>
+
+<body>
+    <input type="hidden" id="jiakao-data-kemu" value="1">
+    <input type="hidden" id="jiakao-data-gs" value="dc">
+    <input type="hidden" id="jiakao-data-clevel1" value="1">
+    <input type="hidden" id="jiakao-data-cate" value="0">
+    <input type="hidden" id="jiakao-data-qcount" value="556"> 
+    <input type="hidden" id="jiakao-data-cketype" value="jiakao.zxlx">  
+    <input type="hidden" id="jiakao-data-rand" value="true">
+    <div id="topbar">
+        <div class="w ">
+            <a href="">网站地图</a>
+            <span class="gap">|</span>
+            <a href="">我的错题</a>
+        </div>
+    </div>
+    <div class="homewrap">
+        <div class="header">
+            <div id="headerInside">
+                <a href="http://bj.58.com" target="_self" id="logo" onclick="clickLog('from=sylogo_bj');"><img src="http://j2.58cdn.com.cn/zt/58jiaxiao/img/58logo.gif" alt="中文最大生活信息门户" title="58同城，让生活更简单" class="logo"></a>
+                <div class="breadNav"><a href="">首页</a> > <a href="">小车类</a> > <span class="nowlink">科目一</span>  </div>
+                <div id="searchbar">
+                    <form action="/jiakao/search/" method="GET" id="seachForm">
+                        <div class="searchkey">
+                            <input type="text" id="keyword" name="key" class="keyword" value="科目一试题练习"  onfocus="if (this.value=='科目一试题练习') this.value='';" onblur="if (this.value =='') this.value='科目一试题练习';">
+                        </div>
+                        <div class="inputcon">
+                            <input type="submit" id="searchbtn" class="btnall" value="搜索">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="biaoti"><p class="icon"></p><h3>小车（C1/C2）科目一题库</h3></div>
+            <div class="main">
+                <div class="question">
+                    <span id="timu">
+                    </span>
+                </div>
+                <div class="item">
+                    <div class="right" id="questionPic">
+                    </div>
+                    <div class="left">
+                        <ul id="ul_answers">
+                        </ul>
+                        <span id="rightanswer">
+                        </span>
+                    </div>
+                </div>
+                <div class="control">
+                    <div class="state">
+                        <p class="accuracy">
+                            <span>答对：</span><i id="TrueNum">&nbsp;&nbsp;0</i><span>题</span>&nbsp;&nbsp;
+                            <span>答错：</span><i id="FalseNum">0</i><span>题</span>&nbsp;&nbsp;
+                            <span>正确率：</span><i id="accuracy">100%</i>
+                        </p>
+                        <p class="right_next">
+                            <input type="checkbox" checked="checked" class="AutoNextTmp">答对自动 跳转下一题
+                        </p>
+                        <p>
+                            <span>共</span><i class="quallcount">1024</i><span>题</span>&nbsp;&nbsp;
+                            <span>当前</span><i class="nowCount">23</i><span>题</span>&nbsp;&nbsp;
+                            <span>转到</span>
+                            <input type="text" id="tiao">&nbsp;&nbsp;<span>题</span>&nbsp;&nbsp;
+                            <p id="skip" >GO>></p>
+                        </p>
+                    </div>
+                    <div class="turn">
+                        <div class="updn">
+                            <p onclick="go(-1)">上一题</p>
+                            <p onclick="go(0)">下一题</p>
+                        </div>
+                        <div class="explain">
+                            <p id="expl">本题详解</p>
+                            <p id="collection">收藏本题</p>
+                            <p id="remove"></p>
+                            <p id="removeCT"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+             <div class="otherlinks">
+                <div class="kemu">
+                    <p class="padding">更改驾照类型：</p>
+                    <ul>
+                        <li><a href="">小车科目一</a></li>
+                        <li><a href="">货车科目一</a></li>
+                        <li><a href="">客车科目一</a></li>
+                        <li><a href="">摩托车科目一</a></li>
+                        <li><a href="">小车科目四</a></li>
+                        <li><a href="">货车科目四</a></li>
+                        <li><a href="">客车科目四</a></li>
+                        <li><a href="">摩托车科目四</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer id="footer" class="footer"><p class="copyright">© 58.com <a id="askicon" target="_blank" title="有问题请与58客服进行对话" rel="nofollow" href="http://about.58.com/v5/">帮助中心</a></p></footer>
+
+<script type="text/javascript">
+    /*$("#searchbtn").on("click",function () {
+         window.location.href="/jiakao/search/?key="+ escape($("#keyword").val());
+    })*/
+</script>
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+.content {
+	width: 1000px;
+	margin: 26px auto 0 auto;
+}
+.biaoti{
+	border-bottom: 1px solid #d7d7d7;
+}
+.icon,.shunxu .arrow,.moni .arrow{
+	background: url(http://img.58cdn.com.cn/zt/58jiaxiao/img/list2.png) no-repeat ; 
+}
+.icon{
+	width: 29px;
+	height: 14px;
+	background-position: 0 0;
+	float: left;
+	margin-top: 5px;
+}
+.content h3{
+	font-size: 22px;
+	padding-left: 10px;
+	color: #ed7712;
+	height: 25px;
+	width: 316px;
+	border-bottom: 2px solid #ed7712;
+}
+.xuanxiangka{
+	margin: 15px 0 32px 0;
+	border: 1px solid #f78720;
+	/*height: 539px;*/
+	height: 413px;
+	width: 1000px;
+	overflow: hidden;
+	zoom:1;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.tab{
+	float: left;
+}
+.tab a{
+	/*height: 59px;*/
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	width: 204px;
+	border-bottom: 1px solid #ed7712;
+	border-right:  1px solid #ed7712;
+	cursor: pointer;
+}
+.right{
+	float: left;
+	background: #f8f8f8;
+	/*width: 829px;*/
+	width: 795px;
+	/*height: 539px;*/
+	height: 413px;
+	position: relative;
+}
+.list{
+	display: none;
+}
+.list:first-child{
+	display: block;
+}
+.zhangjie{
+	margin-top: 58px;
+	margin-left: 45px;
+}
+.zhangjie li{
+	margin-bottom: 25px;
+
+}
+.tab .on{
+	border-right: 1px solid #f8f8f8;
+	background: #f8f8f8;
+}
+.shunxu{
+	width: 404px;
+	height: 79px;
+	background-color: #ed7712;
+	margin: 0 auto;
+	position: absolute;
+	top:170px;
+	left:180px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 5px;
+	border: 4px solid #e6e6e7;
+	font-family: "微软雅黑";
+	font-size: 38px;
+	font-weight: 700;
+	color: #ffffff;
+	padding-left: 30px;
+	line-height: 79px;
+	vertical-align: middle;
+}
+.shunxu p,.moni p{
+	float: left;
+}
+.shunxu .arrow{
+	background-position: 0 -15px;
+	width: 45px;
+	height: 43px;
+	margin-top: 18px;
+}
+.zhuanxiang{
+	margin:42px 0 53px 95px;
+	margin-right: -230px;
+}
+.zhuanxiang li{
+	margin-bottom: 30px;
+	float: left;
+	width: 112px;
+	margin-right: 230px;
+}
+.moni{
+	width: 698px;
+	height: 312px;
+	border: 1px solid #ed8427;
+	margin: 49px auto 49px auto;
+	background: #ffffff;
+}
+
+.moni h4{
+	font-size: 30px;
+	font-weight: 700;
+	color: #ffffff;
+	height: 50px;
+	line-height: 50px;
+	background-color: #ed8427;
+	background-size: auto 45px;
+	padding-left: 77px;
+}
+.moni .arrow{
+	background-position: 0 -15px;
+	width: 45px;
+	height: 36px;
+	margin-top: 7px;
+	background-size:  auto 70px;
+	margin-left: 4px;
+}
+.moni h5{
+	font-size: 14px;
+	color: #ed7712;
+	height: 33px;
+	line-height: 33px;
+	padding-left: 26px;
+	margin: 0;
+	
+}
+.moni ul{
+	padding-left: 24px;
+	padding-top: 22px;
+	overflow: hidden;
+	zoom:1;
+	border-top: 1px solid #ed8427;
+	border-bottom: 1px solid #ed8427;
+}
+.moni li{
+	float: left;
+	margin-bottom: 18px;
+	width: 166px;
+	
+}
+.otherlinks{
+	margin-top: 32px;
+	padding: 0;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+.kemu{
+	margin: 36px 30px 0 30px;
+	border-bottom: 1px solid #e6e6e6; 
+	padding-bottom: 8px;
+}
+.padding{
+	padding-left: 13px;
+}
+.kemu ul{
+	overflow: hidden;
+	zoom:1;
+	margin-right: -110px;
+
+}
+.kemu p{
+	float: left;
+	margin-right: 25px;
+}
+.kemu li{
+	float: left;
+	width: 120px;
+	margin-right: 78px;
+	margin-bottom: 14px;
+}
